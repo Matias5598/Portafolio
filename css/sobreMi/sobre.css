@@ -1,0 +1,10 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sobre__titulo{
+    font-weight: 700;
+    font-size: 1.4rem;
+}

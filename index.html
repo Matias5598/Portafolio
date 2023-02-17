@@ -4,42 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/base/header.css">
+    <link rel="stylesheet" href="css/index/presentacion.css">
+    <link rel="stylesheet" href="css/index/navegacion.css">
+    <link rel="stylesheet" href="css/base/footer.css">
     <title>Mi Portafolio</title>
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
             <img src="img/Logo.svg" alt="logo principal">
-            <h1>Matias Fossati</h1>
+            <h1 class="header__logo--titulo">Matias Fossati</h1>
         </div>
-        <a href="" class="header__contacto">matiasf43@gmail.com</a>
+        <a href="mailto:matiasf43@gmail.com?" class="header__contacto">matiasf43@gmail.com</a>
     </header>
     <main>
         <section class="presentacion">
-            <img src="img/Profile-pic .png" alt="foto de perfil" class="presentacion__foto">
-            <h2 class="presentacion__titulo">Mi nombre es Matias Fossati y construyo sitios web</h2>
-            <p class="presentacion__descripcion"></p>
-            <nav class="links">
-                <ul class="links__lista">
-                    <li class="links__lista--link"><a href="#">github</a></li>
-                    <li class="links__lista--link"><a href="#">linkedin</a></li>
-                    <li class="links__lista--link"><a href="#">instagram</a></li>
-                    <li class="links__lista--link"><a href="#">curriculum</a></li>
-                </ul>
+            <div class="presentacion__foto_container">
+                <img src="img/Profile-pic.png" alt="foto de perfil" class="presentacion__foto_container--foto">
+            </div>
+            <div class="presentacion__descripcion--container">
+                <h2 class="presentacion__titulo">Hola! Mi nombre es Matias Fossati y construyo sitios web</h2>
+                <p class="presentacion__descripcion">Tengo 24 años, soy de Argentina y soy programador web.<br>Me encuentro en búsqueda de mi primera experiencia en el mercado IT.<br>Te invito a navegar por mi sitio y gracias por tu visita.</p>
+                <nav class="presentacion__links">
+                    <ul class="presentacion__links___lista">
+                        <li><a href="#" class="presentacion__links___lista--link">Linkedin</a></li>
+                        <li><a href="#" class="presentacion__links___lista--link">GitHub</a></li>
+                        <li><a href="#" class="presentacion__links___lista--link">Curriculum</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="sitio_links">
+            <nav>
+                <div class="sitio_links__container">
+                    <ul class="sitio_links__lista">
+                        <li class="sitio_links__lista--item"><a href="skills.html" class="sitio_links__lista--link">Skills</a></li>
+                        <li class="sitio_links__lista--item"><a href="#" class="sitio_links__lista--link">Proyectos</a></li>
+                        <li class="sitio_links__lista--item"><a href="#" class="sitio_links__lista--link">Sobre Mí</a></li>
+                        <li class="sitio_links__lista--item"><a href="contacto.html" class="sitio_links__lista--link">Contacto</a></li>
+                    </ul>
+                </div>
             </nav>
         </section>
-        <section class="sobre">
+        <!--<section class="sobre">
             <h2 class="sobre__titulo">Sobre mi</h2>
-            <p class="sobre__texto"></p>
+            <p class="sobre__texto">Inicie en la carrera de ingeniería, ingrese a la facultad en el año 2019. Conocí lo que es la programación en una de las materias del plan y desde entonces he adquirido un gran interés por esta disciplina hasta el día de hoy. <br><br> Decidí aprender y capacitarme más en este campo tan amplio como es la programación y el desarrollo.</p>
         </section>
-        <section class="skills">
-            <h2 class="skills__titulo">skills</h2>
+        
+        <section class="hobbies">
+            <h2 class="hobbies__titulo">Hobbies</h2>
+            <ul class="hobbies__lista">
+                <li class="hobbies__lista--hobbie"><img src="img/hobbies/hobbieEntrenar.png" alt="logo de pesa"></li>
+                <li class="hobbies__lista--hobbie"><img src="img/hobbies/hobbieMusica.png" alt="logo de auriculares"></li>
+                <li class="hobbies__lista--hobbie"><img src="img/hobbies/hobbieGaming.png" alt="logo de joystick"></li>
+                <li class="hobbies__lista--hobbie"><img src="img/hobbies/hobbieSeries.png" alt="logo de television"></li>
+                <li class="hobbies__lista--hobbie"></li>
+                <li class="hobbies__lista--hobbie"></li>
+            </ul>
         </section>
-        <section class="hobbies"></section>
-        <section class="formaciones"></section>
-        <section class="experiencia_programacion"></section>
-        <section class="contacto"></section>
+        <section class="formacion">
+            <h2 class="formacion__titulo">Formacion Académica</h2>
+            <div class="formacion__item">
+                <div class="formacion__item--imagen">
+                    <img src="img/formaciones/Logo-fiuba.png" alt="logo de FIUBA" >
+                </div>
+                <h3 class="formacion__item--titulo">Ingeniería Informática</h3>
+                <p class="formacion__item--texto">2019-Actualidad</p>
+            </div>
+            <div class="formacion__item">
+                <div class="formacion__item--imagen">
+                    <img src="img/formaciones/Alura-logo.png" alt="logo de Alura">
+                </div>
+                <h3 class="formacion__item--titulo">Formacion en Front-End</h3>
+                <p class="formacion__item--texto">2022-Actualidad</p>
+            </div>
+        </section>-->
+
     </main>
-    <footer class="rodapie"></footer>
+    <footer class="footer">
+        <p class="copyright">Desarrollado por Matias Fossati</p>
+    </footer>
 </body>
 </html>

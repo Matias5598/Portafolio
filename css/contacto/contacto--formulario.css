@@ -1,0 +1,74 @@
+.contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.contacto__titulo{
+    font-size: 3rem;
+    padding: 1rem;
+    color: crimson;
+}
+
+.contacto__container{
+    width: 100vw;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contacto__container--formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: .5rem;
+    margin: 1.5rem 0;
+}
+
+.formulario__input{
+    width: 80vw;
+    height: 3vh;
+    background-color: rgb(34, 33, 33);
+    border: 2px solid crimson;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    
+}
+
+#mensaje{
+    height: 10vh;
+}
+
+.formulario__input:focus{
+    outline: inherit;
+    background-color: aliceblue;
+    color: black;
+}
+
+.formulario__boton{
+    padding: .8rem 2rem;
+    background: crimson;
+    border: inherit;
+    border-radius: 1rem;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+
+.formulario__boton:active{
+    transform: scale(0.9);
+}
+
+@media screen and (min-width: 768px){
+    .formulario__input{
+        height: 5vh;
+    }
+    
+    .formulario__boton:hover{
+        color: aliceblue;
+        outline: 2px solid aliceblue;
+    }
+}

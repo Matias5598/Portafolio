@@ -1,0 +1,22 @@
+.header__nav{
+    order: 5;
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+.header__nav--list{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header__nav--item{
+    text-decoration: underline crimson;
+}
+
+
+.header__nav--item:hover{
+    color:  crimson;
+    text-decoration: none;
+}

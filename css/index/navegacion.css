@@ -1,0 +1,45 @@
+.sitio_links{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.sitio_links__lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sitio_links__lista--item{
+    box-sizing: content-box;
+}
+
+.sitio_links__lista--link{
+    display: block;
+    width: 45vw;
+    padding: 25px 0 25px 0;
+    /*border: 1px solid #d1cbbb;*/
+    /*border: 1px solid crimson;*/
+    border-radius: 6px;
+    text-align: center;
+    background-color: crimson;
+}
+
+.sitio_links__lista--item:active{
+    color: #ffffff;
+    transform: scale(1.03);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+
+    .sitio_links__lista--item:hover{
+        transform: scale(1.04);
+        text-decoration: underline;
+    }
+
+    .sitio_links__lista--item:active{
+        transform: scale(1);
+    }
+
+}

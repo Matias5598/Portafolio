@@ -1,0 +1,36 @@
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.formacion__titulo{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.formacion__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: .5rem;
+    background-color: #fdfdfd;
+}
+
+.formacion__item--titulo{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.formacion__item--imagen{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
