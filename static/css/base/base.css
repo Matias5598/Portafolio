@@ -9,17 +9,21 @@ body{
     min-height: 100vh;
     justify-content: space-between;
     font-family: 'Source Code Pro', monospace;
-    font-weight: 600; 
+    font-weight: 300; 
     font-size: 1.2rem;
     color: #fefefe;
     /*color: var(--color-fuente);*/
-    background-image: url(../../img/background_11.jpg);
+    background-image: url(../../img/background_1.jpg);
     background-position: center;
     background-size: cover;
 
     /*background: linear-gradient(338deg, rgb(150, 134, 77) 0%, rgba(55,91,101,1) 67%);*/
 }
 
-.header, .presentacion, .sobre, .skills{
+main{
+    box-sizing: content-box;
+}
+
+.header, .presentacion{
     padding: 1rem;
 }

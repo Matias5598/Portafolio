@@ -8,7 +8,7 @@
 .contacto__titulo{
     font-size: 3rem;
     padding: 1rem;
-    color: crimson;
+    color: rgb(154, 215, 214);
 }
 
 .contacto__container{
@@ -29,8 +29,8 @@
 .formulario__input{
     width: 80vw;
     height: 3vh;
-    background-color: rgb(34, 33, 33);
-    border: 2px solid crimson;
+    background-color: #222121;
+    border: 2px solid rgb(154, 215, 214);
     border-radius: 1rem;
     color: white;
     text-align: center;
@@ -49,11 +49,11 @@
 
 .formulario__boton{
     padding: .8rem 2rem;
-    background: crimson;
+    background: rgb(154, 215, 214);
     border: inherit;
     border-radius: 1rem;
-    color: aliceblue;
-    font-weight: 600;
+    color: rgb(34, 33, 33);
+    font-weight: 300;
     font-size: 1.5rem;
     margin-top: .5rem;
 }

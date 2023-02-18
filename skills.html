@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="static/css/reset.css">
     <title>Skills</title>
-    <link rel="stylesheet" href="./css/base/base.css">
-    <link rel="stylesheet" href="./css/base/header.css">
-    <link rel="stylesheet" href="./css/base/footer.css">
-    <link rel="stylesheet" href="./css/skills/skills--header-nav.css">
+    <link rel="stylesheet" href="static/css/base/base.css">
+    <link rel="stylesheet" href="static/css/base/header.css">
+    <link rel="stylesheet" href="static/css/base/footer.css">
+    <link rel="stylesheet" href="static/css/skills/skills--header-nav.css">
+    <link rel="stylesheet" href="./static/css/skills/skills.css">
 
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
-            <img src="img/Logo.svg" alt="logo principal">
             <h1 class="header__logo--titulo">Matias Fossati</h1>
         </div>
         <nav class="header__nav">
@@ -31,15 +31,59 @@
     <main>
         <section class="skills">
             <h2 class="skills__titulo">Skills</h2>
-            <ul class="skills__lista">
-                <li class="skills__lista--item"><img src="" alt="logo de HTML5"></li>
-                <li class="skills__lista--item"><img src="" alt="Logo de CSS"></li>
-                <li class="skills__lista--item"><img src="" alt="logo de JS"></li>
-                <li class="skills__lista--item"><img src="" alt="logo de python"></li>
-                <li class="skills__lista--item"><img src="" alt="logo de SQL"></li>
-                <li class="skills__lista--item"><img src="" alt="logo de GitHub"></li>
-                <li class="skills__lista--item"><img src="" alt="logo de Node.Js"></li>
-            </ul>
+            <p class="skills__descripcion">Poseo experiencia de varios lenguajes de programación, frameworks y herramientas de desarrollo. Solidos conocimientos en POO, programación funcional e Imperativa. A continuacion incluyo una lista con mis skills. </p>
+            <div class="skills__container">
+                <ul class="skills__lista">
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-html-5-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">HTML5</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-css-filetype-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">CSS3</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-javascript-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">JavaScript</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-python-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">Python</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-node.js-96.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">Node.Js</h3> 
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-sql-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">SQL</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-flask-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">Flask</h3>
+                        </div>
+                    </li>
+                    <li class="skills__lista--item">
+                        <div class="skills__lista--card">
+                            <img src="./static/img/icn/skills/icons8-git-100.png" alt="logo_skill" class="skills__lista--card-logo">
+                            <h3 class="skills__card--titulo">Git</h3>
+                        </div>
+                    </li>
+                </ul>
+        </div>
         </section>
     </main>
     <footer class="footer">

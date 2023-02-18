@@ -46,11 +46,12 @@
     box-sizing: border-box;
     justify-content: space-around;
     gap: 1rem;
+    
 }
 
 .presentacion__links___lista--link{
     font-weight: 600;
-    text-decoration: underline;
+    text-decoration: underline rgb(154, 215, 214);
     padding: .5rem;
 }
 
@@ -71,8 +72,7 @@
     }
 
     .presentacion__links___lista--link:hover{
-        text-decoration: underline crimson;
-        outline: 1px solid crimson;
+        outline: 1px solid rgb(154, 215, 214);
         border-radius: 5%;
     }
 }

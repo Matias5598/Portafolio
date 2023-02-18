@@ -1,7 +1,7 @@
 .header{
     display: flex;
     width: auto;
-    height: 10vh;
+    height: auto;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
@@ -23,7 +23,10 @@
 
 .header__contacto{
     font-weight: 400;
-    
+    color: rgb(154, 215, 214);
+    padding: .2rem ;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 403px){
@@ -38,9 +41,18 @@
         justify-content: space-between;
     }
 
+    .header__nav{
+        font-size: 1.5rem;
+    }
+
+    .header__contacto{
+        padding: none;
+        border: none;
+    }
+
     .header__contacto:hover{
         text-decoration: underline;
-        color: crimson;
+        color: rgb(154, 215, 214);
         
     }
 

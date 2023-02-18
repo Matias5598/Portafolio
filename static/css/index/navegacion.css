@@ -15,14 +15,17 @@
 }
 
 .sitio_links__lista--link{
-    display: block;
+    font-size: 1.4rem;
+    color: black;
     width: 45vw;
-    padding: 25px 0 25px 0;
-    /*border: 1px solid #d1cbbb;*/
-    /*border: 1px solid crimson;*/
+    padding: 20px 0 25px 0;
     border-radius: 6px;
     text-align: center;
-    background-color: crimson;
+    background-color: #9ad7d6;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .sitio_links__lista--item:active{

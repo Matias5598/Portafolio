@@ -2,7 +2,6 @@
     order: 5;
     box-sizing: content-box;
     width: 100%;
-
 }
 
 .header__nav--list{
@@ -12,11 +11,11 @@
 }
 
 .header__nav--item{
-    text-decoration: underline crimson;
+    text-decoration: underline rgb(154, 215, 214);
 }
 
 
 .header__nav--item:hover{
-    color:  crimson;
+    color:  rgb(154, 215, 214);
     text-decoration: none;
 }
