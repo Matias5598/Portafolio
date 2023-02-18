@@ -31,7 +31,7 @@
 .presentacion__titulo{
     font-weight: 700;
     font-size: 1.3rem;
-    text-align: justify;
+    text-align: center;
 }
 
 .presentacion__descripcion{
@@ -46,7 +46,6 @@
     box-sizing: border-box;
     justify-content: space-around;
     gap: 1rem;
-    
 }
 
 .presentacion__links___lista--link{

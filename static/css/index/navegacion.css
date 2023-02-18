@@ -15,7 +15,8 @@
 }
 
 .sitio_links__lista--link{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: black;
     width: 45vw;
     padding: 20px 0 25px 0;
@@ -23,7 +24,7 @@
     text-align: center;
     background-color: #9ad7d6;
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     justify-content: center;
     align-items: center;
 }
