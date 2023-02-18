@@ -11,6 +11,9 @@
     font-size: 3rem;
 }
 
+.skills__descripcion{
+    padding: 0.5rem;
+}
 
 .skills__lista{
     display: flex;
