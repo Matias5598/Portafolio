@@ -65,6 +65,7 @@
 @media screen and (min-width: 768px){
     .formulario__input{
         height: 5vh;
+        font-size: 2rem;
     }
     
     .formulario__boton:hover{
