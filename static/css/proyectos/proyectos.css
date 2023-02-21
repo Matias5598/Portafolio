@@ -1,0 +1,13 @@
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+
+.proyectos__titulo{
+    color: #9ad7d6;
+    font-size: 3rem;
+}
+
