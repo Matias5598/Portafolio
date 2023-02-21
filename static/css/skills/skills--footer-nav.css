@@ -1,0 +1,13 @@
+.footer__nav{
+    width: 100%;
+}
+
+.footer__nav--list{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.footer__nav_link--icon{
+    transform: scale(0.7);
+}
