@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="static/css/base/base.css">
     <link rel="stylesheet" href="static/css/base/header.css">
     <link rel="stylesheet" href="static/css/base/footer.css">
-    <link rel="stylesheet" href="static/css/contacto/contacto--formulario.css">
+    <link rel="stylesheet" href="static/css/contacto/contacto--section-contacto.css">
     <link rel="stylesheet" href="static/css/contacto/contacto--header-nav.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
             <ul class="header__nav--list">
                 <li class="header__nav--item"><a href="index.html" class="header__nav--link">Home</a></li>
                 <li class="header__nav--item"><a href="skills.html" class="header__nav--link">Skills</a></li>
-                <li class="header__nav--item"><a href="#" class="header__nav--link">Proyectos</a></li>
+                <li class="header__nav--item"><a href="proyectos.html" class="header__nav--link">Proyectos</a></li>
                 <li class="header__nav--item"><a href="#" class="header__nav--link">Sobre Mí</a></li>
             </ul>
         </nav>
@@ -29,28 +29,33 @@
     </header>
     <main>
         <section class="contacto">
-            <h1 class="contacto__titulo">Contáctame</h1>
-            <h2 class="contacto__mensaje">Complete el formulario.</h2>
-            <div class="contacto__container">
-                <form action="" class="contacto__container--formulario">
-                    <label for="nombreapellido">Nombre y Apellido</label>
-                    <input type="text" id="nombreapellido" class="formulario__input" required>
-                
-                    <label for="email">Email</label>
-                    <input type="email" id="email" class="formulario__input" required placeholder="email@dominio.com">
-                
-                    <label for="telefono">Telefono (Opcional)</label>
-                    <input type="tel" id="telefono" class="formulario__input">
-
-                    <label for="asunto" >Asunto</label>
-                    <input type="text" id="asunto" required class="formulario__input">
-
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="" id="mensaje" cols="40" rows="10" class="formulario__input" required></textarea>
-                    
-                    <input type="submit" value="Enviar" class="formulario__boton" id="formulario__boton">
-                </form>
-            </div>
+            <h2 class="contacto__titulo">Contáctame</h2>
+            <ul class="contacto__lista">
+                <li class="contacto__lista--item">
+                    <a href="mailto:matiasf43@gmail.com?">
+                        <div class="contacto__lista--item-container">
+                            <img src="./static/img/icn/contacto/email-5-128.png" alt="">
+                            <h3>Email</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="contacto__lista--item">
+                    <a href="">
+                        <div class="contacto__lista--item-container">
+                            <img src="./static/img/icn/contacto/whatsapp-128.png" alt="">
+                            <h3>Whatsapp</h3>
+                        </div>
+                    </a>
+                </li>
+                <li class="contacto__lista--item">
+                    <a href="https://www.linkedin.com/in/matias-fossati-dev/">
+                        <div class="contacto__lista--item-container">
+                            <img src="./static/img/icn/contacto/linkedin-3-128.png" alt="">
+                            <h3>Linkedin</h3>
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
     <footer class="footer">
